@@ -20,6 +20,7 @@ description:         Please see the README on GitLab at <https://gitlab.se.ifmo.
 
 dependencies:
 - base >= 4.7 && < 5
+- validity >= 0.12.0.2
 
 ghc-options:
 - -Wall
