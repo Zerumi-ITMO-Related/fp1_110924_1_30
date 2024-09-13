@@ -6,22 +6,16 @@ cabal-version: 2.2
 
 name:           fp1110924130
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/fp1110924130#readme>
-homepage:       https://github.com/githubuser/fp1110924130#readme
-bug-reports:    https://github.com/githubuser/fp1110924130/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2024 Author name here
+description:    Please see the README on GitLab at <https://gitlab.se.ifmo.ru/zerumi-functional-programming-2024-labs/fp1_110924_1_30>
+author:         Zerumi
+maintainer:     367387@edu.itmo.ru
+copyright:      2024 Zerumi
 license:        BSD-3-Clause
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
     CHANGELOG.md
-
-source-repository head
-  type: git
-  location: https://github.com/githubuser/fp1110924130
 
 library
   exposed-modules:

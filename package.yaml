@@ -1,10 +1,9 @@
 name:                fp1110924130
 version:             0.1.0.0
-github:              "githubuser/fp1110924130"
 license:             BSD-3-Clause
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2024 Author name here"
+author:              "Zerumi"
+maintainer:          "367387@edu.itmo.ru"
+copyright:           "2024 Zerumi"
 
 extra-source-files:
 - README.md
@@ -17,7 +16,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/fp1110924130#readme>
+description:         Please see the README on GitLab at <https://gitlab.se.ifmo.ru/zerumi-functional-programming-2024-labs/fp1_110924_1_30>
 
 dependencies:
 - base >= 4.7 && < 5
