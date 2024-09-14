@@ -24,7 +24,7 @@ mod3mod5Or0 x | isMod3Or5 x = x
               | otherwise = 0
 
 filterImplementation :: Integer
-filterImplementation = sum (filter isMod3Or5 [1..1000])
+filterImplementation = sum (filter isMod3Or5 [1..999])
 
 recursiveSum :: Integer -> Integer
 recursiveSum 0 = 0
@@ -35,18 +35,18 @@ tailRecursiveSum 0 acc = acc
 tailRecursiveSum x acc = tailRecursiveSum (x - 1) (acc + mod3mod5Or0 x)
 
 recursiveImplementation :: Integer
-recursiveImplementation = recursiveSum 1000
+recursiveImplementation = recursiveSum 999
 
 tailRecursiveImplementation :: Integer
-tailRecursiveImplementation = tailRecursiveSum 1000 0
+tailRecursiveImplementation = tailRecursiveSum 999 0
 
 listComprehensionImplementation :: Integer
-listComprehensionImplementation = sum [x | x <- [1..1000], isMod3Or5 x]
+listComprehensionImplementation = sum [x | x <- [1..999], isMod3Or5 x]
 
 mapImplementation :: Integer
-mapImplementation = sum (map mod3mod5Or0 [1..1000])
+mapImplementation = sum (map mod3mod5Or0 [1..999])
 
 infinitiveListImplementation :: Integer
-infinitiveListImplementation = sum (map mod3mod5Or0 (take 1000 (iterate (+1) 1)))
+infinitiveListImplementation = sum (map mod3mod5Or0 (take 999 (iterate (+1) 1)))
 
 -- The sum of all the multiples of 3 or 5 below 1000 is 233168
