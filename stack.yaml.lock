@@ -5,6 +5,13 @@
 
 packages:
 - completed:
+    hackage: hspec-2.11.9@sha256:6e7fb7a40404f11b028f1b19f07779887b2c8af04cbae7eaea73e83c440954c7,1763
+    pantry-tree:
+      sha256: 011f3767b57b7ecc9b34c390a6a0f9951bb0e503401365cf99ab79316ab2a898
+      size: 584
+  original:
+    hackage: hspec-2.11.9
+- completed:
     hackage: validity-0.12.0.2@sha256:32e09ab1843a080456730cb3aa86b6d816a91b38b820d22087c3756e01a5e3df,2534
     pantry-tree:
       sha256: 556416b9d7f21e338f2a47c20d0e02ce7499a48a2cc9e2061c7c365d62200ace
