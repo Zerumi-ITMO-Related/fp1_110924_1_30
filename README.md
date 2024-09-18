@@ -11,6 +11,6 @@
 
 ### Список задач:
 
-1\. [Multiples of 3 and 5](https://projecteuler.net/problem=1) - [Solution]()  
-30\. [Digit Fifth Powers](https://projecteuler.net/problem=30) - [Solution]()
+1\. [Multiples of 3 and 5](https://projecteuler.net/problem=1) - Solution: [Haskell](src/Prob1.hs) / [Kotlin](src/kotlin/prob1.kt)  
+30\. [Digit Fifth Powers](https://projecteuler.net/problem=30) - Solution: [Haskell](src/Prob30.hs) / [Kotlin](src/kotlin/prob30.kt) 
 
