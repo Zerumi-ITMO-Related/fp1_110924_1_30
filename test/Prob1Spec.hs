@@ -1,4 +1,4 @@
-module Prob1Spec (spec) where
+module Prob1Spec (prob1Spec) where
 
 import Prob1
 import Test.Hspec
@@ -6,21 +6,21 @@ import Test.Hspec
 expectedResult :: Integer
 expectedResult = 233168
 
-spec :: Spec
-spec = do
+prob1Spec :: Spec
+prob1Spec = do
   describe "Test Project Euler Problem 1 solution" $ do
     it "Recursive Implementation should return correct answer" $ do
-      recursiveImplementation `shouldBe` expectedResult
+      prob1RecursiveImplementation `shouldBe` expectedResult
     it "Tail Recursive Implementation should return correct answer" $ do
-      tailRecursiveImplementation `shouldBe` expectedResult
+      prob1TailRecursiveImplementation `shouldBe` expectedResult
     it "Filter Implementation should return correct answer" $ do
-      filterImplementation `shouldBe` expectedResult
+      prob1FilterImplementation `shouldBe` expectedResult
     it "Map Implementation should return correct answer" $ do
-      mapImplementation `shouldBe` expectedResult
+      prob1MapImplementation `shouldBe` expectedResult
     it "List Comprehension Implementation should return correct answer" $ do
-      listComprehensionImplementation `shouldBe` expectedResult
+      prob1ListComprehensionImplementation `shouldBe` expectedResult
     it "Infinitive List Implementation should return correct answer" $ do
-      infinitiveListImplementation `shouldBe` expectedResult
+      prob1InfinitiveListImplementation `shouldBe` expectedResult
 
 -- You can run the test suite by executing the following command:
 -- stack test
