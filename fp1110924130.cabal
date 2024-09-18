@@ -21,6 +21,7 @@ library
   exposed-modules:
       Lib
       Prob1
+      Prob30
   other-modules:
       Paths_fp1110924130
   autogen-modules:
@@ -55,6 +56,7 @@ test-suite fp1110924130-test
   main-is: Spec.hs
   other-modules:
       Prob1Spec
+      Prob30Spec
       Paths_fp1110924130
   autogen-modules:
       Paths_fp1110924130
