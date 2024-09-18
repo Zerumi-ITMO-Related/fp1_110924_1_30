@@ -1,5 +1,8 @@
 import Test.Hspec
 import Prob1Spec
+import Prob30Spec
 
 main :: IO ()
-main = hspec spec
+main = do
+    hspec prob1Spec
+    hspec prob30Spec
